@@ -1,0 +1,8 @@
+.carousel-item img {
+    height: 650px;        
+    object-fit: cover;     
+}
+
+body{
+    background-color: #18191a;
+}
