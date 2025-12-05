@@ -11,8 +11,8 @@
 </head>
 
 <body class="container  bg-success p-2 text-dark bg-opacity-50">
-  <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <header class="bg-info text-white text-center py-5">
+    <nav class="navbar navbar-expand-lg bg-body-info">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="assets/img/Cinepedia Logo.png" alt="Bootstrap" width="30"
             height="24"></a>
@@ -20,10 +20,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Peliculas</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -50,11 +50,58 @@
         </div>
       </div>
     </nav>
+    <div class="container">
+      <h1 class="display-4 fw-bold">Bienvenido a CinePedia</h1>
+      <p class="lead">Tu pagina favorita sobre películas, series.</p>
+    </div>
   </header>
   <main>
+    <section>
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/los_ilusionistas3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/superma_2025.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/fantastic-banner-4.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+    </section>
+    <div class="row-8">
+      <h2 class="mb-3 border-bottom pb-2">Artículos destacados</h2>
+
+      <div class="card" style="width: 18rem;">
+        <img src="assets/A-Endgame.jpg" class="card-img-top" alt="Endgame">
+        <div class="card-body">
+          <p class="card-text">El épico final de la saga del Infinito, donde los héroes más poderosos del planeta
+            enfrentan a Thanos.</p>
+        </div>
+      </div>
+    </div>
 
   </main>
   <footer>
+    <footer class="bg-dark text-center text-white py-3 mt-5">
+      <p class="mb-0">&copy; 2025 CinePedia.</p>
+    </footer>
 
   </footer>
   <!-- Modal -->
