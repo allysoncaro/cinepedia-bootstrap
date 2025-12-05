@@ -6,21 +6,3 @@
 body {
     background-color: #18191a;
 }
-
-#carouselExampleAutoplaying {
-    max-width: 200vh;
-    /* ancho máximo */
-    height: 100vh;
-    /* alto del carrusel */
-    margin: auto;
-    /* centra horizontalmente */
-}
-
-#carouselExampleAutoplaying img {
-    width: 100vh;
-    height: 100vh;
-
-    /* fuerza el alto de las imágenes */
-    object-fit: cover;
-    /* recorta sin deformar */
-}
