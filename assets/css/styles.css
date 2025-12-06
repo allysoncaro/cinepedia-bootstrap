@@ -1,10 +1,9 @@
 .carousel-item img {
-    height: 650px;        
-    object-fit: cover;     
+    height: 530px;        
 }
 
 body{
-    background-color: #18191a;
+    background-color: #18191a !important;
 }
 
 .actor-card img {
