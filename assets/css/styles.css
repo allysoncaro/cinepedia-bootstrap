@@ -3,6 +3,76 @@
     object-fit: cover;     
 }
 
-body{
-    background-color: #18191a;
+
+ body {
+            background-color: #1c1b1b;
+        }
+/* Modal oscuro (igual color que el nav) */
+        #modalContacto .modal-content {
+            background-color: #1c1b1b;
+            color: #fff;
+            border: none;
+        }
+
+        /* Separadores y títulos */
+        #modalContacto .modal-header,
+        #modalContacto .modal-footer {
+            border-color: rgba(255, 255, 255, 0.08);
+        }
+
+        /* Título */
+        #modalContacto .modal-title {
+            color: #fff;
+        }
+
+        /* Formulario: campos transparentes con borde claro */
+        #modalContacto .form-control {
+            background: transparent;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+        }
+
+        /* Placeholder más claro */
+        #modalContacto .form-control::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        /* Input group (iconos) */
+        #modalContacto .input-group-text {
+            background: rgba(255, 255, 255, 0.03);
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        /* Botones del modal */
+        #modalContacto .btn-secondary {
+            background-color: #2a2929;
+            color: #fff;
+            border: none;
+        }
+
+        #modalContacto .btn-primary {
+            /* ajusta si quieres color distinto; mantengo azul por defecto */
+            background-color: #0d6efd;
+            color: #fff;
+        }
+
+        /* Asegura contraste del icono cerrar (fallback si no usas btn-close-white) */
+        #modalContacto .btn-close {
+            filter: invert(1) brightness(2);
+        }
+
+        footer a:hover {
+            color: #fff !important;
+        }
+
+.actor-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+}
+.actor-card {
+    text-align: center;
 }
