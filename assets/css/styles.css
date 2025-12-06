@@ -1,15 +1,11 @@
 .carousel-item img {
-    height: 650px;
-    object-fit: cover;
+   height: 530px;  
+   object-fit: cover;
+}
+body{
+    background-color: #18191a !important;
 }
 
-body {
-    background-color: #18191a;
-}
-
- body {
-            background-color: #1c1b1b;
-        }
 /* Modal oscuro (igual color que el nav) */
         #modalContacto .modal-content {
             background-color: #1c1b1b;
